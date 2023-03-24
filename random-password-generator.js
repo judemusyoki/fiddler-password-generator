@@ -24,12 +24,6 @@ function generatePassword(length, options) {
     allowedChars.push(...'!@#$%^&*()_+-=[]{}|;:",.<>?')
   }
 
-  console.log('allowedChars:', allowedChars)
-
-  console.log(
-    'random...',
-    cryptoRandomString({ length, characters: allowedChars.toString() }),
-  )
   return cryptoRandomString({ length, characters: allowedChars.toString() })
 }
 
