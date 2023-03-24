@@ -1,0 +1,18 @@
+{
+  "name": "random-pass-gen",
+  "version": "1.0.0",
+  "description": "A Random Password Generator package",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "prettier": "prettier --write \"**/*.{js,jsx,json,md}\""
+  },
+  "author": "Jude Musyoki",
+  "license": "MIT",
+  "dependencies": {
+    "crypto-random-string": "^5.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.7"
+  }
+}
