@@ -29,6 +29,4 @@ node index.js --length 16 --no-symbols
 ```
 ## Credits
 This application was built using the following dependencies:
-- crypto-random-string: A library for generating random strings using cryptographic methods.
-## License
-This project is licensed under the MIT License. See the LICENSE file for more information.
+- [crypto-random-string](https://www.npmjs.com/package/crypto-random-string): A library for generating random strings using cryptographic methods.
