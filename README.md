@@ -1,13 +1,26 @@
 # fiddler-password-generator
 This is a simple command line application that generates random passwords based on user-defined options.
 
+## Requirements
+- Nodejs
+
 ## Installation
-1. Clone this repository to your local machine.
-2. Install dependencies by running npm install in the project directory.
-## Usage
-To generate a random password, run the following command:
 ```
-node index.js
+npm install fiddler-password-generator
+```
+
+## Usage
+Import package in your project
+```
+import passwordGenerator from 'fiddler-random-pass-gen'
+```
+
+```
+const myNewPassword = passwordGenerator(14)
+```
+Result:
+```
+w},*i?@,,,,a,S
 ```
 
 This will generate a password with the following default options:
