@@ -1,10 +1,13 @@
 import generatePassword from './random-password-generator.js'
 
-const password = generatePassword(12, {
-  uppercase: true,
-  lowercase: true,
-  numbers: true,
-  symbols: true,
-})
+function passwordGenerator(length) {
+  const password = generatePassword(length, {
+    uppercase: true,
+    lowercase: true,
+    numbers: true,
+    symbols: true,
+  })
+  return password
+}
 
-console.log(password)
+export default passwordGenerator
