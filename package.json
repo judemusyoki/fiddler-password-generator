@@ -1,7 +1,12 @@
 {
   "name": "fiddler-random-pass-gen",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "This is a simple command line application that generates random passwords based on user-defined options.",
+  "homepage": "https://github.com/judemusyoki/fiddler-password-generator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/judemusyoki/fiddler-password-generator.git"
+  },
   "main": "index.js",
   "type": "module",
   "keywords": [
